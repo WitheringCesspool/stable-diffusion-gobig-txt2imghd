@@ -1,4 +1,6 @@
-# **Easy Stable Diffusion SD Upscale Notebook (a txt2imgHD and GoBig alternative)**
+# **Easy Stable Diffusion SD Upscale Notebook (a txt2imgHD and GoBig alternative) for Stable Diffusion**
+
+# [Link to colab notebook](https://colab.research.google.com/github/WitheringCesspool/stable-diffusion-gobig-txt2imghd/blob/main/Stable%20Diffusion%20Easy%20SD%20upscale%20(txt2imghd%2C%20GoBig%20alternative)%20Easy%20Mode.ipynb)
 
 This colab is a version of Daswer123's notebook (commit 247) that has been modified to allow for easy access to AUTOMATIC1111's WebUI version which includes an unedited version of "SD Upscale". SD Upscale is a custom implementation of txt2imgHD, which is similar to GoBig and has quite a few options. Basically, it splits the image up into tiles, upscales the tiles, running stable diffusion on them, which adds details. Then it sews the pieces back together again, giving a nice large, **detailed** image.
 
